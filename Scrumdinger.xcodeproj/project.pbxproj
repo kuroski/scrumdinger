@@ -16,6 +16,7 @@
 		5A1957C5258A6F55005A8695 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1957C4258A6F55005A8695 /* Color+Codable.swift */; };
 		5A1957C8258A71E2005A8695 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1957C7258A71E2005A8695 /* ScrumsView.swift */; };
 		5A1957CD258A7443005A8695 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1957CC258A7443005A8695 /* DetailView.swift */; };
+		5A1957D2258A76E5005A8695 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1957D1258A76E5005A8695 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5A1957C4258A6F55005A8695 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		5A1957C7258A71E2005A8695 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		5A1957CC258A7443005A8695 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5A1957D1258A76E5005A8695 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				5A1957BF258A6E4B005A8695 /* CardView.swift */,
 				5A1957C7258A71E2005A8695 /* ScrumsView.swift */,
 				5A1957CC258A7443005A8695 /* DetailView.swift */,
+				5A1957D1258A76E5005A8695 /* EditView.swift */,
 				5A1957AD258A6884005A8695 /* Assets.xcassets */,
 				5A1957B2258A6884005A8695 /* Info.plist */,
 				5A1957AF258A6884005A8695 /* Preview Content */,
@@ -163,6 +166,7 @@
 			files = (
 				5A1957AC258A6883005A8695 /* MeetingView.swift in Sources */,
 				5A1957C8258A71E2005A8695 /* ScrumsView.swift in Sources */,
+				5A1957D2258A76E5005A8695 /* EditView.swift in Sources */,
 				5A1957BC258A6DB2005A8695 /* DailyScrum.swift in Sources */,
 				5A1957CD258A7443005A8695 /* DetailView.swift in Sources */,
 				5A1957C0258A6E4B005A8695 /* CardView.swift in Sources */,
