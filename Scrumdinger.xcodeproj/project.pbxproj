@@ -23,6 +23,7 @@
 		5A731141258AAE7D00E879D1 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A731140258AAE7D00E879D1 /* MeetingFooterView.swift */; };
 		5A731145258AAF6700E879D1 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A731144258AAF6700E879D1 /* AVPlayer+Ding.swift */; };
 		5A731149258AAF9500E879D1 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5A731148258AAF9500E879D1 /* ding.wav */; };
+		5A73114D258AB14600E879D1 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A73114C258AB14600E879D1 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		5A731140258AAE7D00E879D1 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		5A731144258AAF6700E879D1 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		5A731148258AAF9500E879D1 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		5A73114C258AB14600E879D1 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				5A1957C4258A6F55005A8695 /* Color+Codable.swift */,
 				5A1957DE258AAD51005A8695 /* ScrumTimer.swift */,
 				5A731144258AAF6700E879D1 /* AVPlayer+Ding.swift */,
+				5A73114C258AB14600E879D1 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				5A1957AC258A6883005A8695 /* MeetingView.swift in Sources */,
 				5A1957C8258A71E2005A8695 /* ScrumsView.swift in Sources */,
+				5A73114D258AB14600E879D1 /* History.swift in Sources */,
 				5A1957D2258A76E5005A8695 /* EditView.swift in Sources */,
 				5A731145258AAF6700E879D1 /* AVPlayer+Ding.swift in Sources */,
 				5A1957D7258AABFD005A8695 /* MeetingHeaderView.swift in Sources */,

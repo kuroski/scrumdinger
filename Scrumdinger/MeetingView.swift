@@ -12,7 +12,6 @@ struct MeetingView: View {
     @Binding var scrum: DailyScrum
     @StateObject var scrumTimer = ScrumTimer()
     var player: AVPlayer { AVPlayer.sharedDingPlayer }
-    
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 16.0)
@@ -36,6 +35,8 @@ struct MeetingView: View {
         }
         .onDisappear {
             scrumTimer.stopScrum()
+            let newHistory = History(attendees: scrum.attendees, lengthInMinutes: scrumTimer.secondsElapsed / 60)
+            scrum.history.insert(newHistory, at: 0)
         }
     }
 }
