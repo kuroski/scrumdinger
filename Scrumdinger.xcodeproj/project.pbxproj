@@ -25,6 +25,7 @@
 		5A731149258AAF9500E879D1 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5A731148258AAF9500E879D1 /* ding.wav */; };
 		5A73114D258AB14600E879D1 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A73114C258AB14600E879D1 /* History.swift */; };
 		5AF05B5A258BF48900D62BB8 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF05B59258BF48900D62BB8 /* ScrumData.swift */; };
+		5AF05B5E258BFB0B00D62BB8 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF05B5D258BFB0B00D62BB8 /* MeetingTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		5A731148258AAF9500E879D1 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		5A73114C258AB14600E879D1 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		5AF05B59258BF48900D62BB8 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
+		5AF05B5D258BFB0B00D62BB8 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				5A1957AB258A6883005A8695 /* MeetingView.swift */,
 				5A1957D6258AABFD005A8695 /* MeetingHeaderView.swift */,
 				5A731140258AAE7D00E879D1 /* MeetingFooterView.swift */,
+				5AF05B5D258BFB0B00D62BB8 /* MeetingTimerView.swift */,
 				5A1957BF258A6E4B005A8695 /* CardView.swift */,
 				5A1957C7258A71E2005A8695 /* ScrumsView.swift */,
 				5A1957CC258A7443005A8695 /* DetailView.swift */,
@@ -203,6 +206,7 @@
 				5A1957D2258A76E5005A8695 /* EditView.swift in Sources */,
 				5A731145258AAF6700E879D1 /* AVPlayer+Ding.swift in Sources */,
 				5AF05B5A258BF48900D62BB8 /* ScrumData.swift in Sources */,
+				5AF05B5E258BFB0B00D62BB8 /* MeetingTimerView.swift in Sources */,
 				5A1957D7258AABFD005A8695 /* MeetingHeaderView.swift in Sources */,
 				5A1957BC258A6DB2005A8695 /* DailyScrum.swift in Sources */,
 				5A731141258AAE7D00E879D1 /* MeetingFooterView.swift in Sources */,
