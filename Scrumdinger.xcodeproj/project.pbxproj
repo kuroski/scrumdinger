@@ -26,6 +26,8 @@
 		5A73114D258AB14600E879D1 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A73114C258AB14600E879D1 /* History.swift */; };
 		5AF05B5A258BF48900D62BB8 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF05B59258BF48900D62BB8 /* ScrumData.swift */; };
 		5AF05B5E258BFB0B00D62BB8 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF05B5D258BFB0B00D62BB8 /* MeetingTimerView.swift */; };
+		5AF05B62258BFDC200D62BB8 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF05B61258BFDC200D62BB8 /* SpeechRecognizer.swift */; };
+		5AF05B65258BFFB700D62BB8 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF05B64258BFFB700D62BB8 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		5A73114C258AB14600E879D1 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		5AF05B59258BF48900D62BB8 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 		5AF05B5D258BFB0B00D62BB8 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		5AF05B61258BFDC200D62BB8 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		5AF05B64258BFFB700D62BB8 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 				5A1957C7258A71E2005A8695 /* ScrumsView.swift */,
 				5A1957CC258A7443005A8695 /* DetailView.swift */,
 				5A1957D1258A76E5005A8695 /* EditView.swift */,
+				5AF05B64258BFFB700D62BB8 /* HistoryView.swift */,
 				5A1957DB258AACEE005A8695 /* ScrumProgressViewStyle.swift */,
 				5A1957AD258A6884005A8695 /* Assets.xcassets */,
 				5A1957B2258A6884005A8695 /* Info.plist */,
@@ -118,6 +123,7 @@
 				5A731144258AAF6700E879D1 /* AVPlayer+Ding.swift */,
 				5A73114C258AB14600E879D1 /* History.swift */,
 				5AF05B59258BF48900D62BB8 /* ScrumData.swift */,
+				5AF05B61258BFDC200D62BB8 /* SpeechRecognizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,9 +209,11 @@
 				5A1957AC258A6883005A8695 /* MeetingView.swift in Sources */,
 				5A1957C8258A71E2005A8695 /* ScrumsView.swift in Sources */,
 				5A73114D258AB14600E879D1 /* History.swift in Sources */,
+				5AF05B62258BFDC200D62BB8 /* SpeechRecognizer.swift in Sources */,
 				5A1957D2258A76E5005A8695 /* EditView.swift in Sources */,
 				5A731145258AAF6700E879D1 /* AVPlayer+Ding.swift in Sources */,
 				5AF05B5A258BF48900D62BB8 /* ScrumData.swift in Sources */,
+				5AF05B65258BFFB700D62BB8 /* HistoryView.swift in Sources */,
 				5AF05B5E258BFB0B00D62BB8 /* MeetingTimerView.swift in Sources */,
 				5A1957D7258AABFD005A8695 /* MeetingHeaderView.swift in Sources */,
 				5A1957BC258A6DB2005A8695 /* DailyScrum.swift in Sources */,
